@@ -1,0 +1,77 @@
+/* inverted-triangle.css */
+
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Modern and clean font */
+    background-color: #f8f4f8; /* Light background */
+    color: #4a3c6b; /* Dark pastel orchid text color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #882395e3; /* Pastel orchid color for the main header */
+    margin: 20px 0;
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif; /* Elegant and stylish font for headers */
+  }
+  
+  p {
+    text-align: center;
+    color: #a06fcf; /* Lighter pastel orchid color for the paragraph */
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif; /* Consistent font */
+  }
+  
+  img {
+    max-width: 100%;
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensure images cover the space without distortion */
+    border-radius: 8px;
+    border: 2px solid #d8a1e0; /* Pastel orchid border */
+    margin: 10px;
+  }
+  
+  /* Container styles */
+  .container {
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Image gallery */
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center images horizontally */
+  }
+  
+  .image-gallery img {
+    margin: 10px;
+  }
+  
+  /* Navigation bar */
+  .nav {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #d8a1e0; /* Pastel orchid */
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  

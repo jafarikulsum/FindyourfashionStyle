@@ -1,0 +1,71 @@
+/* hourglass.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif; /* Default font */
+    background-color: #f3e5f5; /* Pastel orchid background */
+    color: #6a1b9a; /* Pastel orchid text color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #8e24aa; /* Slightly darker pastel orchid */
+    margin: 30px 0;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Elegant font for the header */
+  }
+  
+  p {
+    text-align: center;
+    color: #7b1fa2; /* Medium pastel orchid color */
+    font-size: 1.2em;
+    margin: 0 0 20px 0;
+    font-family: 'Arial', sans-serif; /* Simple font for the paragraph */
+  }
+  
+  img {
+    max-width: 100%;
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensure images cover the space without distortion */
+    border-radius: 8px;
+    border: 2px solid #8e24aa; /* Pastel orchid border */
+    margin: 10px;
+  }
+  
+  /* Container styles */
+  .container {
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Image gallery */
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center images horizontally */
+  }
+  
+  /* Navigation bar */
+  .nav {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #8e24aa; /* Pastel orchid */
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  

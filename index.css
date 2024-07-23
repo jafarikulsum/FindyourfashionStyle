@@ -1,0 +1,99 @@
+/* General styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('website image.png') no-repeat center center fixed; /* Add your background image URL */
+    background-size: cover; /* Adjusted to fit the image within the screen */
+}
+
+.background-image {
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    padding-top: 50px; /* Add padding to position content lower */
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.9); /* Add some transparency for better readability */
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #8e44ad; /* Pastel purple header */
+}
+
+.nav {
+    display: flex;
+    justify-content: center; /* Center the nav horizontally */
+    gap: 10px;
+    margin-top: 20px; /* Add margin to separate nav from the heading */
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: #8e44ad; /* Pastel purple */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #9b59b6; /* Slightly darker pastel purple */
+}
+
+/* Specific styles for form and other elements */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a148c;
+}
+
+a {
+    color: #6a1b9a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+}

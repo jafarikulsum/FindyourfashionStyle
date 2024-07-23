@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting...</title>
+</head>
+<body>
+  <h1>Redirecting...</h1>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const bodyShape = params.get('body-shape');
+
+    if (bodyShape) {
+      window.location.href = `${bodyShape}.html`;
+    } else {
+      window.location.href = 'userp.html'; // Redirect back to profile page if no selection
+    }
+  </script>
+</body>
+</html>
